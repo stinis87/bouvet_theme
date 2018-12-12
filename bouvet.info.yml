@@ -1,0 +1,21 @@
+name: Bouvet
+type: theme
+description: Starter theme
+package: Other
+core: 8.x
+libraries:
+  - bouvet/global-styling
+libraries-override:
+  classy/base:
+      css:
+        component:
+          css/components/menu.css: false
+ 
+base theme: classy
+
+regions:
+  content: Content
+  header: Header
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  footer: Footer
