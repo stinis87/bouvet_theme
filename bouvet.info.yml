@@ -4,7 +4,7 @@ description: Starter theme
 package: Other
 core: 8.x
 libraries:
-  - bouvet/global-styling
+  - bouvet_theme/global-styling
 libraries-override:
   classy/base:
       css:
