@@ -3,6 +3,7 @@ type: theme
 description: Starter theme
 package: Other
 core: 8.x
+core_version_requirement: ^8 || ^9
 libraries:
   - bouvet_theme/global-styling
 libraries-override:
